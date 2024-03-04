@@ -1,0 +1,42 @@
+package misellanious.interview.questions;
+
+class Shape{
+	public double calculateArea(){
+		return 0.0;
+	}	
+}
+
+class Circle extends Shape{
+	private double radius;
+	public void circle(double radius) {
+		this.radius=radius;
+	}
+	public double calculateArea() {
+		return Math.PI*radius*radius;
+	}
+}
+
+
+class Rectangle extends Shape{
+	private double length, breadth;
+	public void rectangle(double length, double breadth) {
+		this.length=length;
+		this.breadth=breadth;
+	}
+	public double calculateArea() {
+		return length*breadth;
+	}
+}
+
+
+
+public class MethodOverridingDemo {
+
+	public static void main(String[] args) {
+		
+		Shape shape= new Circle();
+		shape.calculateArea();
+
+	}
+
+}

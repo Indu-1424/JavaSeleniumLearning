@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;misellanious.interview.questions.LargestAndSmallest&apos; to &apos;LargestAmongTwo&apos;&#x0D;&#x0A;- Original project: &apos;JavaLearning&apos;&#x0D;&#x0A;- Original element: &apos;misellanious.interview.questions.LargestAndSmallest&apos;&#x0D;&#x0A;- Renamed element: &apos;misellanious.interview.questions.LargestAmongTwo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LargestAndSmallest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;misellanious.interview.questions{LargestAndSmallest.java[LargestAndSmallest" matchStrategy="1" name="LargestAmongTwo" qualified="false" references="true" similarDeclarations="false" stamp="1702130004631" textual="false" version="1.0"/>
+</session>
